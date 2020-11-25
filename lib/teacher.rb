@@ -6,8 +6,8 @@ class Teacher < User
 
   attr_accessor :first_name, :last_name
 
-  def teach(knowledge)
-    knowledge.sample
+  def teach
+    KNOWLEDGE.sample
   end
 
   
